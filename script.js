@@ -22,9 +22,14 @@ buttons.forEach(button=>{
 function result(){
     let operations = display.innerHTML;
     try {
-        let result = eval(operations);
+        if (operations){
+            let result = eval(operations);
         display.innerHTML = result;
-    } catch(e) {
-        display.innerHTML = "Error";
-    }
+        } else{
+            alert("Please enter numbers to calculate")
+        }
+        }
+        catch(e) {
+            display.innerHTML = "Error";
+        }
 }
