@@ -12,6 +12,11 @@
     margin: 10px auto;
     border-radius: 20px;
     background-color:beige;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-weight: 800;
+    font-size: 30px;
 }
 .buttons{
     display: flex;
@@ -45,7 +50,7 @@ button:active{
 }
 #equals{
     background-color: orange;
-    width: 185px;
+    width: 285px;
     font-size: 35px;
 }
 #equals:hover{
