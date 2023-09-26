@@ -43,6 +43,21 @@ button:active{
     background: antiquewhite;
     border: 2px solid burlywood;
 }
+#equals{
+    background-color: orange;
+    width: 185px;
+    font-size: 35px;
+}
+#equals:hover{
+    background-color: #51ee51;
+}
+#clear{
+    background-color: red;
+    color: snow;
+}
+#clear:hover{
+    background-color: orangered;
+}
 
 
 @media (max-width: 450px) {
